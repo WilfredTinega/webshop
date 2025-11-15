@@ -87,7 +87,11 @@ fixtures = [
 				[
                     "Web Page",
                     "Webshop Settings",
-                    "Website Settings"
+                    "Website Settings",
+					"Web Form ",
+					"Website Sidebar",
+					"Website Slideshow",
+					"Website Theme"
 				],
 			]
 		],
