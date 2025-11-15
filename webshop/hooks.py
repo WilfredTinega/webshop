@@ -76,3 +76,71 @@ has_website_permission = {
     "Website Item": "webshop.webshop.doctype.website_item.website_item.has_website_permission_for_website_item",
     "Item Group": "webshop.webshop.doctype.website_item.website_item.has_website_permission_for_item_group"
 }
+
+fixtures = [
+	{
+		"dt": "DocType",
+		"filters": [
+			[
+				"name",
+				"in",
+				[
+                    "Web Page",
+                    "Webshop Settings",
+                    "Website Settings",
+					"Web Form ",
+					"Website Sidebar",
+					"Website Slideshow",
+					"Website Theme"
+				],
+			]
+		],
+	},
+	# {
+	# 	"dt": "Server Script",
+	# 	"filters": [
+	# 		[
+	# 			"name",
+	# 			"in",
+	# 			[
+	# 			],
+	# 		]
+	# 	],
+	# },
+	# {
+	# 	"dt": "Client Script",
+	# 	"filters": [
+	# 		[
+	# 			"name",
+	# 			"in",
+	# 			[
+	# 			],
+	# 		]
+	# 	],
+	# },
+	# {
+	# 	"dt": "Print Format",
+	# 	"filters": [
+	# 		[
+	# 			"name",
+	# 			"in",
+	# 			[
+					
+	# 			],
+	# 		]
+	# 	],
+	# },
+	# {
+	# 	"dt": "Report",
+	# 	"filters": [
+	# 		[
+	# 			"name",
+	# 			"in",
+	# 			[
+					
+	# 			],
+	# 		]
+	# 	],
+	# },
+
+]
